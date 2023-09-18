@@ -1,0 +1,16 @@
+name: npaipredictor # Will be concatenated with the group_id to an ID
+author: Krzysztof Kampinowski
+env_yml_path: 
+  win-64: A:/KNIME_npaipredictor_html/npaipredictor/environment_win.yml
+  linux-64: A:/KNIME_npaipredictor_html/npaipredictor/environment_linux.yml
+  osx-64: A:/KNIME_npaipredictor_html/npaipredictor/environment_mox.yml
+  osx-arm64: A:/KNIME_npaipredictor_html/npaipredictor/environment_mox.yml 
+extension_module: npaipred_node # The .py Python module containing the nodes of your extension
+description: AIA Insights Bioactivity Predictor # Human readable bundle name / description
+long_description: Machine learning model for bioactivity prediction of molecules with respect to a number of targets
+group_id: org.tutorial
+version: 0.1.0 # Version of this Python node extension
+vendor: KNIME AG, Zurich, Switzerland
+license_file: LICENSE.TXT # Best practice: put your LICENSE.TXT next to the knime.yml; otherwise you would need to change to path/to/LICENSE.txt
+feature_dependencies:
+  - org.knime.features.chem.types
