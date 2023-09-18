@@ -1,10 +1,10 @@
 name: npaipredictor # Will be concatenated with the group_id to an ID
 author: Krzysztof Kampinowski
 env_yml_path: 
-  win-64: A:/KNIME_npaipredictor_html/npaipredictor/environment_win.yml
-  linux-64: A:/KNIME_npaipredictor_html/npaipredictor/environment_linux.yml
-  osx-64: A:/KNIME_npaipredictor_html/npaipredictor/environment_mox.yml
-  osx-arm64: A:/KNIME_npaipredictor_html/npaipredictor/environment_mox.yml 
+  win-64: ./environment_win.yml
+  linux-64: ./environment_linux.yml
+  osx-64: ./environment_mox.yml
+  osx-arm64: ./environment_mox.yml 
 extension_module: npaipred_node # The .py Python module containing the nodes of your extension
 description: AIA Insights Bioactivity Predictor # Human readable bundle name / description
 long_description: Machine learning model for bioactivity prediction of molecules with respect to a number of targets
