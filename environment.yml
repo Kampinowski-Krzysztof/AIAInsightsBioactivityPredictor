@@ -10,4 +10,3 @@ dependencies:
   - scipy=1.11.1
   - rdkit=2022.09.1
   - requests=2.31.0
-prefix: /home/david/miniconda3/envs/knime-env
