@@ -4,7 +4,7 @@ env_yml_path: A:/KNIME_npaipredictor_html/npaipredictor/environment.yml
 extension_module: npaipred_node # The .py Python module containing the nodes of your extension
 description: AIA Insights Bioactivity Predictor # Human readable bundle name / description
 long_description: Machine learning model for bioactivity prediction of molecules with respect to a number of targets
-group_id: com.aiainsight
+group_id: com.aiainsights
 version: 0.1.0 # Version of this Python node extension
 vendor: AIA Insights, Birmingham, UK
 license_file: LICENSE.TXT # Best practice: put your LICENSE.TXT next to the knime.yml; otherwise you would need to change to path/to/LICENSE.txt
