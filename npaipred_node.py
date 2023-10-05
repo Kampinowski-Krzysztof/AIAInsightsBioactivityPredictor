@@ -41,8 +41,8 @@ my_category = knext.category(
     description="Whatever the node has produced")
 class ModelNode:
     """Natural product bioactivity predictor
-    This plugin allows for selection of one of several models for prediction of the bioactivity of input molecules with respect to a number of
-    targets. Trained models can be downoaded from: WEBSITE
+    This plugin allows for prediction of the bioactivity of input molecules with respect to a number of targets. To access the API key, required to
+    connect to AIA servers, please email cto@aiainsights.com .
     """
 
     api_key_param = knext.StringParameter("The API key for model access", "Please email cto@aiainsights.com for a trial AIA Insights account and an API token", ""  )
@@ -202,7 +202,8 @@ class ModelNode:
     description="A table of molecule SMILES strings, with IDs in a format readable for bioactivity predictor")
 
 class SmilesReaderNode():
-
+        """SMILES reader node, used to generate tables in appropriate format for the NPAIPredictor node. The node accepts .smi files as input, folders
+        containing single .smi files or manual input of SMILES + names."""
     smiles_input_param = knext.StringParameter("Input molecules or molecule source", "The input molecules may be provided as a string (format: SMILE_1, ID_1; SMILE2_2, ID_2...SMILE_N, ID_N) or path to a .smi file or folder containing .smi files. The smiles files may contain single smiles (if providing a directory only) or multiple SMILE-ID pairs, separated by a separator chosen in the 'Separator for smile file(s) option'", "CC(=O)OC1=CC=CC=C1C(=O)O, aspirin; CC(C)CC1=CC=C(C=C1)C(C)C(=O)O, ibuprofen")
     delimiter_param = knext.StringParameter("Separator for smile file(s)", "If providing a file path to a .smi file, select the separator", enum=["space",",",";"], default_value="space")
     def is_smiles(col):
