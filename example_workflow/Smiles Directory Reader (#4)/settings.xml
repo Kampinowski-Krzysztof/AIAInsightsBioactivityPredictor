@@ -6,27 +6,23 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
-        <entry key="api_key_param" type="xstring" value="ea356f5611f8d980f1f8d2d6844aeed40a14fc58"/>
-        <entry key="extension_version_Internals" type="xstring" value="0.1.0"/>
+        <entry key="directory" type="xstring" value="C:\Users\there\Desktop\smiles"/>
+        <entry key="colName" type="xstring" value="Molecules"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <entry key="factory" type="xstring" value="org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory"/>
-    <entry key="node-name" type="xstring" value="Bioactivity Predictor"/>
-    <entry key="node-bundle-name" type="xstring" value="KNIME Python 3 - Nodes"/>
-    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python3.nodes"/>
+    <entry key="factory" type="xstring" value="org.knime.chem.base.node.io.smiles.SmilesReaderNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Smiles Directory Reader"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Chemistry Base nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.chem.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.1.1.v202309080842"/>
-    <entry key="node-feature-name" type="xstring" value="KNIME Python Extension Development (Labs)"/>
-    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python3.nodes.feature.group"/>
+    <entry key="node-bundle-version" type="xstring" value="5.1.0.v202303061416"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base Chemistry Types &amp; Nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.chem.types.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.1.1.v202309080842"/>
-    <config key="factory_settings">
-        <entry key="extension_id" type="xstring" value="org.tutorial.npaipredictor"/>
-        <entry key="node_id" type="xstring" value="ModelNode"/>
-    </config>
-    <entry key="name" type="xstring" value="Bioactivity Predictor"/>
+    <entry key="node-feature-version" type="xstring" value="5.1.0.v202303061416"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Smiles Directory Reader"/>
     <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
@@ -34,12 +30,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 4, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 4, Cols: 1"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="19a10e91-caa4-4983-890d-940ac7bdf5e8"/>
+        <entry key="file_store_id" type="xstring" value="535cf4d1-edfc-4ed0-8af2-aa064566305b"/>
     </config>
 </config>

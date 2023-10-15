@@ -12,17 +12,29 @@
         </config>
         <config key="column_domain">
             <config key="possible_values">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="aspirin"/>
+                        <entry key="StringCell" type="xstring" value="baicalein"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="ibuprofen"/>
+                        <entry key="StringCell" type="xstring" value="indirubin"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Z1"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Afrormosin"/>
                     </config>
                 </config>
             </config>
@@ -31,7 +43,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="SMILES"/>
+        <entry key="column_name" type="xstring" value="Molecules"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -40,17 +52,29 @@
         </config>
         <config key="column_domain">
             <config key="possible_values">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="CC(=O)OC1=CC=CC=C1C(=O)O"/>
+                        <entry key="StringCell" type="xstring" value="C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C=C(C(=C3O)O)O"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="CC(C)CC1=CC=C(C=C1)C(C)C(=O)O"/>
+                        <entry key="StringCell" type="xstring" value="C1=CC=C2C(=C1)C(=C(N2)O)C3=NC4=CC=CC=C4C3=O"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="C[C@@H]1OC[C@@H]2[C@@H](O1)[C@@H]([C@H]([C@@H](O2)O[C@@H]3c4cc5c(cc4[C@H]([C@@H]6[C@@H]3COC6=O)c7cc(c(c(c7)OC)O)OC)OCO5)O)O"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="COc1ccc(cc1)c2coc3cc(c(cc3c2=O)OC)O[C@H]4[C@H]([C@@H]([C@@H]([C@@H](O4)CO)O)O)O"/>
                     </config>
                 </config>
             </config>
@@ -68,17 +92,29 @@
         </config>
         <config key="column_domain">
             <config key="possible_values">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="P24557,Q9H244,P23219,P35354,Q9HCN6"/>
+                        <entry key="StringCell" type="xstring" value="Q9Y468,P46063,P54132,Q9HC97,P10828,P04150,P07947,O43451,P16050,P18054,P04637,P31749,P27695,Q9GZT9,P43250,P37840"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="P23219,P42330"/>
+                        <entry key="StringCell" type="xstring" value="Q07820"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="P11387,P43220,P11388,Q02127,P42574,Q02880,Q13315,O14757"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="P11388"/>
                     </config>
                 </config>
             </config>
@@ -96,17 +132,29 @@
         </config>
         <config key="column_domain">
             <config key="possible_values">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Q9ULX7"/>
+                        <entry key="StringCell" type="xstring" value="Q16678"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="P35354"/>
+                        <entry key="StringCell" type="xstring" value="O14757"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="P46063"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="P31639"/>
                     </config>
                 </config>
             </config>
@@ -124,17 +172,29 @@
         </config>
         <config key="column_domain">
             <config key="possible_values">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="P43166"/>
+                        <entry key="StringCell" type="xstring" value="P05067"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Q07869"/>
+                        <entry key="StringCell" type="xstring" value="P11388"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="P22303"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Q92830"/>
                     </config>
                 </config>
             </config>
